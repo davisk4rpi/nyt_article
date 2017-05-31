@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 32px;
+}
+
+.document {
+  margin-top: 48px;
+  margin-left: 30px;
+  box-shadow: -3px 3px 2px 0 rgba(0,0,0,0.06);
+}
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+
+header {
+  margin-left: 30px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 48px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+}
+
+nav ul.nav-left {
+  list-style-type: none;
+  position: relative;
+  left: -15px;
+  padding-left: 0;
+  display: inline-block;
+}
+nav ul.nav-right {
+  list-style-type: none;
+  margin-top: 6px;
+  position: relative;
+  right: 30px;
+  display: inline-block;
+  padding-left: 0;
+  margin-top: 2px;
+}
+
+ul.nav-right li {
+  margin-right: 11px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 7px 9px;
+}
+
+.btn {
+  box-shadow: 0 3px 2px 0 rgba(0,0,0,0.06), inset -1px -1px 1px 0 rgba(0,0,0,0.02);
+  border-bottom-color: #cecece;
+  border-radius: 3px;
+  border: 1px solid rgb(226, 226, 226);
+  height: 30px;
+}
+
+.blue-btn{
+  color: white;
+  background-color: rgb(98, 136, 165);
+  padding: 7px 10px 6px 10px;
+}
+
+.blue-btn .nav-text {
+  margin: 0;
+  height: 15px
+}
+
+.nav-text {
+  display: inline-block;
+  height: 13px;
+  vertical-align: top;
+  margin-left: 7px;
+  margin-top: 2px;
+}
+
+.icon {
+  position: relative;
+  background-image: url("img/nyt-sprites.svg");
+  background-repeat: no-repeat;
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+}
+
+nav .icon {
+  height: 16px;
+  width: 16px;
+}
+
+#hamburger {
+  background-position: -490px -214px;
+}
+
+#settings {
+  background-position: -34px -247px;
+}
+.settings-container{
+  height: 30px;
+  padding-bottom: 0;
+}
+
+#search {
+  background-position: -404px -214px;
+}
+
+#times {
+  background-position: -83px -280px;
+}
+
+#facebook {
+  background-position: -490px -214px;
+}
+
+#twitter {
+  background-position: -490px -214px;
+}
+
+#email {
+  background-position: -490px -214px;
+}
+
+#reply {
+
+}
+
+.header-logo {
+  display: inline-block;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  left: 40%;
+}
+
+.header-container {
+  width: 100%;
+}
+
+.row {
+  width: 100%
+}
+
+.banner-ad {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.kicker{
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.headline {
+  font-family: 'Tinos', serif;
+  font-style: italic;
+  font-size: 32px;
+}
